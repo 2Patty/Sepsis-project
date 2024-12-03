@@ -112,6 +112,8 @@ The application is packaged using Docker, ensuring it can be easily deployed acr
 
 App sceenshot![image](https://github.com/user-attachments/assets/2b9fadf1-0783-4071-9369-a3bcbe91c1e3)
 
+Deployed app link: (https://hub.docker.com/repository/docker/missgathura/sespis_data/general)
+
 
 
 
