@@ -1,32 +1,45 @@
-# Dataset Description - Assignment 1
+Sepsis Prediction Project
 
-The provided data is a modified version of a publicly available data source, and is subject to copyright.
+Objective
 
-### Donor of database: 
-                          The Johns Hopkins University
-                          Johns Hopkins Road
-                          Laurel, MD 20707
-                          (301) 953-6231
+The primary goal of this project is to predict the likelihood of a patient developing sepsis based on clinical and demographic data. The insights from this analysis aim to:
+Improve early detection of sepsis in hospitals or clinics.
+Optimize resource allocation for high-risk patients.
+Reduce sepsis-related mortality rates by facilitating timely intervention.
 
-### Licence agreement: 
+columns in the data
+#ID: number to represent patient ID
+#PRG: Plasma glucose
+#PL: Blood Work Result-1 (mu U/ml)
+#PR: Blood Pressure (mm Hg)
+#SK: Blood Work Result-2 (mm)
+#TS: Blood Work Result-3 (mu U/ml)
+#M11: Body mass index (weight in kg/(height in m)^2
+#BD2: Blood Work Result-4 (mu U/ml)
+#Age: patients age (years)
+#Insurance: If a patient holds a valid insurance card
+#Sepsis: Positive: if a patient in ICU will develop a sepsis and Negative: otherwise
 
-The dataset can only be used for the purpose of this assignment. Sharing or distributing this data or using this data for any other commercial or non-commercial purposes is prohibited.
+Steps Followed
+1. Data Exploration
+Understanding the dataset structure, identifying missing values, and analyzing data types.
+Descriptive statistics to summarize numerical variables.
 
+2. Data Cleaning
+Handling missing values and duplicates.
 
-### Data Fields
+3. Exploratory Data Analysis (EDA)
+Univariate Analysis: Examining individual variables.
+Bivariate Analysis: Analyzing relationships between variables.
+Correlation Analysis: Identifying significant relationships among numerical features.
 
-| Column   Name                | Attribute/Target | Description                                                                                                                                                                                                  |
-|------------------------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ID                           | N/A              | Unique number to represent patient ID                                                                                                                                                                        |
-| PRG           | Attribute1       |  Plasma glucose|
-| PL               | Attribute 2     |   Blood Work Result-1 (mu U/ml)                                                                                                                                                |
-| PR              | Attribute 3      | Blood Pressure (mm Hg)|
-| SK              | Attribute 4      | Blood Work Result-2 (mm)|
-| TS             | Attribute 5      |     Blood Work Result-3 (mu U/ml)|                                                                                  
-| M11     | Attribute 6    |  Body mass index (weight in kg/(height in m)^2|
-| BD2             | Attribute 7     |   Blood Work Result-4 (mu U/ml)|
-| Age              | Attribute 8      |    patients age  (years)|
-| Insurance | N/A     | If a patient holds a valid insurance card|
-| Sepssis                 | Target           | Positive: if a patient in ICU will develop a sepsis , and Negative: otherwise |
+4. Data Preparation
+Feature engineering and balancing the dataset to handle class imbalance.
 
-### Missing Attribute Values: Yes
+5. Modeling and Evaluation
+Building and evaluating machine learning models to predict sepsis risk.
+Hyperparameter tuning for model optimization.
+Testing the best model on the test set.
+
+6. Insights and Conclusion
+Summarizing the results and highlighting actionable insights.
