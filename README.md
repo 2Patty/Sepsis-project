@@ -56,6 +56,7 @@ I was testing the best model on the test set.
 Summarizing the results and highlighting actionable insights.
 
 Deployment
+
 i. FastAPI
 The model is implemented as a FastAPI web service, offering an API for sepsis prediction. This setup provides a user-friendly interface where users can seamlessly input patient details and receive predictions.
 
