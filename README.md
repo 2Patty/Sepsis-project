@@ -22,6 +22,22 @@ iv. Docker Deployment
 The entire application was containerized and deployed using Docker, ensuring smooth and consistent performance across different environments.
 
 
+FASTAPI Interface
+
+After clicking on the link to the working FastAPI, click on "Try It Out", add the patient's medical details, and click on the "EXECUTE" button.
+![image](https://github.com/user-attachments/assets/08e2ed19-c8b7-4311-9a80-f64cee6a9b53)
+
+
+Before Prediction
+
+![image](https://github.com/user-attachments/assets/a76e657b-72a6-4f7e-8de7-0882bd6a94be)
+
+
+After Prediction
+
+![image](https://github.com/user-attachments/assets/8cdbab23-2361-40aa-a8e0-530dab6dae24)
+
+
 Project Setup
 
 Follow these steps to configure the project environment:
