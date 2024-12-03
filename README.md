@@ -132,6 +132,8 @@ Deployed app link: (https://hub.docker.com/repository/docker/missgathura/sespis_
 
 
 
+License This project is licensed under the MIT License.
 
+NB This analysis is conducted for educational purposes only. Predictions and findings from this project should be interpreted with caution when applied to real-world scenarios. Further validation and business context considerations are recommended for real-world applications.
 
 
