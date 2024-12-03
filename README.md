@@ -47,7 +47,9 @@ Upgrade pip and install the required dependencies:
 bash
 Copy code
 python -m pip install -q --upgrade pip
+
 python -m pip install -qr requirements.txt
+
 You can copy and execute each of the commands above in your terminal to quickly prepare the project environment.
 
 
@@ -108,6 +110,7 @@ ii. Docker Containerization
 The application is packaged using Docker, ensuring it can be easily deployed across different environments while maintaining consistent performance and functionality.
 
 
+App sceenshot![image](https://github.com/user-attachments/assets/2b9fadf1-0783-4071-9369-a3bcbe91c1e3)
 
 
 
