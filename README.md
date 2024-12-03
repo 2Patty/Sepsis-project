@@ -23,6 +23,7 @@ The entire application was containerized and deployed using Docker, ensuring smo
 
 
 Project Setup
+
 Follow these steps to configure the project environment:
 
 i. Clone the Repository
@@ -30,7 +31,8 @@ Run the following command to clone the project repository:
 
 bash
 Copy code
-git clone https://github.com//Sepsis-Prediction-Using-FastAPI.git
+git clone (https://github.com/2Patty/Sepsis-project.git)
+
 ii. Set Up a Virtual Environment and Install Dependencies
 
 For Windows:
@@ -47,23 +49,6 @@ Copy code
 python -m pip install -q --upgrade pip
 python -m pip install -qr requirements.txt
 You can copy and execute each of the commands above in your terminal to quickly prepare the project environment.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 columns in the data
